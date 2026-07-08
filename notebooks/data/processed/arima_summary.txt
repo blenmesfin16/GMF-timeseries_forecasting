@@ -1,0 +1,23 @@
+                               SARIMAX Results                                
+==============================================================================
+Dep. Variable:                   TSLA   No. Observations:                 2309
+Model:                          ARIMA   Log Likelihood                4435.132
+Date:                Wed, 08 Jul 2026   AIC                          -8866.263
+Time:                        05:08:59   BIC                          -8854.774
+Sample:                             0   HQIC                         -8862.075
+                               - 2309                                         
+Covariance Type:                  opg                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0017      0.001      2.308      0.021       0.000       0.003
+sigma2         0.0013   2.08e-05     60.305      0.000       0.001       0.001
+===================================================================================
+Ljung-Box (L1) (Q):                   0.01   Jarque-Bera (JB):              1815.03
+Prob(Q):                              0.92   Prob(JB):                         0.00
+Heteroskedasticity (H):               2.41   Skew:                             0.17
+Prob(H) (two-sided):                  0.00   Kurtosis:                         7.33
+===================================================================================
+
+Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).

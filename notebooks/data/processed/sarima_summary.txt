@@ -1,0 +1,23 @@
+                                SARIMAX Results                                
+===============================================================================
+Dep. Variable:                    TSLA   No. Observations:                 2309
+Model:             SARIMAX(1, 0, 0, 5)   Log Likelihood                4422.270
+Date:                 Wed, 08 Jul 2026   AIC                          -8840.540
+Time:                         05:14:40   BIC                          -8829.055
+Sample:                              0   HQIC                         -8836.353
+                                - 2309                                         
+Covariance Type:                   opg                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+ar.S.L5       -0.0305      0.016     -1.880      0.060      -0.062       0.001
+sigma2         0.0013    2.1e-05     59.985      0.000       0.001       0.001
+===================================================================================
+Ljung-Box (L1) (Q):                   0.01   Jarque-Bera (JB):              1779.08
+Prob(Q):                              0.93   Prob(JB):                         0.00
+Heteroskedasticity (H):               2.41   Skew:                             0.16
+Prob(H) (two-sided):                  0.00   Kurtosis:                         7.29
+===================================================================================
+
+Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).
