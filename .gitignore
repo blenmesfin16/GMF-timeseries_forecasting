@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files (keep structure but ignore actual data)
+data/raw/
+data/processed/*.csv
+data/processed/*.xlsx
+!data/processed/.gitkeep
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Logs and outputs
+*.log
+*.pkl
+*.h5
+*.pb
+*.tflite
+
+# Model files
+models/
+*.h5
+*.pb
+
+# Reports
+reports/
+*.pdf
+*.html
